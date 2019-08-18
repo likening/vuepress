@@ -5,6 +5,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/img/logo.ico' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
+    base: '/vuepress/',
     themeConfig: {
         nav: [
             { text: '主页', link: '/' },
