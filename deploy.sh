@@ -16,12 +16,12 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# git remote add origin git@github.com:likening/note-book.git
+#git subtree push --prefix=D:\vuepress\docs\.vuepress\dist origin gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:likening/note-book.git master
+git push -f git@github.com:likening/note-book.git master:master
 
 cd -
